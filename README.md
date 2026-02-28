@@ -1,15 +1,20 @@
-# pendulum
+# Pendulum
 
-To install dependencies:
+A minimal Solid-style reactive frontend framework built around signals, owner-based disposal, and action-driven routing.
+
+⚠️ Experimental.
+
+## Features
+
+- Signals + fine-grained effects
+- JSX runtime (react-jsx compatible)
+- Router with typed actions
+- createResource
+- bind:value / bind:checked / bind:number
+- Keyed <For>
+- Switch / Match
+
+## Install
 
 ```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+npm install @ficazam31/pendulum
